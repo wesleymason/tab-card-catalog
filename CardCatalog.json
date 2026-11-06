@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "updatedAt": "2026-11-03",
-  "note": "Checked against each issuer's own card page on 2026-11-03 (Bilt via bilt.com, Citi's welcome offer from citi.com search results, foreign fees for Altitude Go and Freedom Unlimited from issuer application pages and lists). Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant: re-check before relying on them. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties between cards that earn the same on dining.",
+  "version": 4,
+  "updatedAt": "2026-11-05",
+  "note": "Checked against each issuer's own card page on 2026-11-03 (Bilt via bilt.com, Citi's welcome offer from citi.com search results, foreign fees for Altitude Go and Freedom Unlimited from issuer application pages and lists). Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant: re-check before relying on them. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties between cards that earn the same on dining. Discover cards added 2026-11-05: the it Cash Back's dining rate applies only in the quarters Discover names restaurants (Q4 2026, Oct 1 to Dec 31), on up to $1,500 a quarter once activated; the Chrome's 2% on gas and restaurants is capped at $1,000 a quarter. Add each new Discover quarter to diningBonusWindows when it is announced.",
   "cards": [
     {
       "baseMultiplier": 1,
@@ -221,6 +221,51 @@
       "sourceURL": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
       "notes": "1.5% on everything else is the real draw. Not on Chase's no-foreign-transaction-fee list, so expect a fee abroad.",
       "transferablePoints": false
+    },
+    {
+      "id": "discover-it-cash-back",
+      "name": "Discover it Cash Back",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "diningMultiplier": 5,
+      "baseMultiplier": 1,
+      "otherCategoryMultipliers": {},
+      "pointValueCents": 1,
+      "isCashBack": true,
+      "foreignTransactionFee": false,
+      "transferablePoints": false,
+      "diningBonusWindows": [
+        {
+          "start": "2026-10-01",
+          "end": "2026-12-31"
+        }
+      ],
+      "diningQuarterlyCap": 1500,
+      "requiresActivation": true,
+      "applyURL": "https://www.discover.com/credit-cards/cash-back/it-card.html",
+      "sourceURL": "https://www.discover.com/credit-cards/cash-back/cashback-calendar.html",
+      "lastVerified": "2026-11-05",
+      "notes": "Restaurants are a 5% category in Q4 2026, shared with entertainment and utilities under one $1,500 quarterly cap; activation is required each quarter. Discover matches all the cash back earned in the first year."
+    },
+    {
+      "id": "discover-it-chrome",
+      "name": "Discover it Chrome",
+      "issuer": "Discover",
+      "annualFee": 0,
+      "diningMultiplier": 2,
+      "baseMultiplier": 1,
+      "otherCategoryMultipliers": {
+        "Gas stations": 2
+      },
+      "pointValueCents": 1,
+      "isCashBack": true,
+      "foreignTransactionFee": false,
+      "transferablePoints": false,
+      "diningQuarterlyCap": 1000,
+      "applyURL": "https://www.discover.com/credit-cards/cash-back/chrome-card.html",
+      "sourceURL": "https://www.discover.com/credit-cards/cash-back/chrome-card.html",
+      "lastVerified": "2026-11-05",
+      "notes": "2% at gas stations and restaurants on up to $1,000 of combined spending a quarter, no activation. Discover matches all the cash back earned in the first year."
     }
   ]
 }
