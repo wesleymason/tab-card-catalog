@@ -1,12 +1,12 @@
 {
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-11-05",
-  "note": "Checked against each issuer's own card page on 2026-11-03 (Bilt via bilt.com, Citi's welcome offer from citi.com search results, foreign fees for Altitude Go and Freedom Unlimited from issuer application pages and lists). Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant: re-check before relying on them. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties between cards that earn the same on dining. Discover cards added 2026-11-05: the it Cash Back's dining rate applies only in the quarters Discover names restaurants (Q4 2026, Oct 1 to Dec 31), on up to $1,500 a quarter once activated; the Chrome's 2% on gas and restaurants is capped at $1,000 a quarter. Add each new Discover quarter to diningBonusWindows when it is announced.",
+  "note": "Re-verified 2026-11-05 against issuer pages and current reviews. Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant; where sources disagreed (Sapphire Reserve 100K to 150K, Strata Premier 60K or 75K) the lower figure is kept. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties. Rotating or capped dining: diningBonusWindows lists the dates a rotating dining rate applies (Discover it: Q4 2026), diningQuarterlyCap the dining spend per quarter at that rate (Discover it $1,500, Chrome $1,000, Altitude Go $2,000). Add each new Discover quarter when it is announced.",
   "cards": [
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "amex-gold",
       "name": "American Express Gold Card",
@@ -30,7 +30,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "chase-sapphire-preferred",
       "name": "Chase Sapphire Preferred",
@@ -55,7 +55,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "chase-sapphire-reserve",
       "name": "Chase Sapphire Reserve",
@@ -79,7 +79,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": true,
       "id": "capital-one-savor",
       "name": "Capital One Savor",
@@ -105,7 +105,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "citi-strata-premier",
       "name": "Citi Strata Premier",
@@ -130,7 +130,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": true,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "us-bank-altitude-go",
       "name": "U.S. Bank Altitude Go",
@@ -149,12 +149,13 @@
       "applyURL": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
       "sourceURL": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
       "notes": "4X on dining, takeout and delivery only on the first $2,000 each quarter, then 1X. Charges a 3% foreign transaction fee since 2024.",
-      "transferablePoints": false
+      "transferablePoints": false,
+      "diningQuarterlyCap": 2000
     },
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "wells-fargo-autograph",
       "name": "Wells Fargo Autograph",
@@ -179,7 +180,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": false,
       "id": "bilt-obsidian",
       "name": "Bilt Obsidian Card",
@@ -202,7 +203,7 @@
     {
       "baseMultiplier": 1.5,
       "foreignTransactionFee": true,
-      "lastVerified": "2026-11-03",
+      "lastVerified": "2026-11-05",
       "isCashBack": true,
       "id": "chase-freedom-unlimited",
       "name": "Chase Freedom Unlimited",
