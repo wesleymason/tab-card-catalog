@@ -1,7 +1,7 @@
 {
-  "version": 5,
+  "version": 6,
   "updatedAt": "2026-11-10",
-  "note": "Re-verified 2026-11-10 against issuer search snippets and current reviews. Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant; where sources disagreed (Sapphire Reserve 100K to 150K, Strata Premier 60K to 75K, Wells Fargo Autograph 20K or 40K, Amex Gold spend $6,000 or $8,000) the lower bonus and the higher spend are kept. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties. Rotating or capped dining: diningBonusWindows lists the dates a rotating dining rate applies (Discover it: Q4 2026), diningQuarterlyCap the dining spend per quarter at that rate (Discover it $1,500, Chrome $1,000, Altitude Go $2,000). Add each new Discover quarter when it is announced.",
+  "note": "Verified 2026-11-10 directly against every issuer's card page (Amex, Chase x3, Capital One, Citi, U.S. Bank, Wells Fargo, Bilt, Discover x2); foreign transaction fees for Altitude Go and Freedom Unlimited (3%) rest on concurring 2026 third-party sources since the issuer pages omit them. Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant; where sources disagreed (Sapphire Reserve 100K to 150K, Strata Premier 60K to 75K, Wells Fargo Autograph 20K or 40K, Amex Gold spend $6,000 or $8,000) the lower bonus and the higher spend are kept. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties. Rotating or capped dining: diningBonusWindows lists the dates a rotating dining rate applies (Discover it: Q4 2026), diningQuarterlyCap the dining spend per quarter at that rate (Discover it $1,500, Chrome $1,000, Altitude Go $2,000). Add each new Discover quarter when it is announced.",
   "cards": [
     {
       "baseMultiplier": 1,
@@ -263,8 +263,8 @@
       "foreignTransactionFee": false,
       "transferablePoints": false,
       "diningQuarterlyCap": 1000,
-      "applyURL": "https://www.discover.com/credit-cards/cash-back/chrome-card.html",
-      "sourceURL": "https://www.discover.com/credit-cards/cash-back/chrome-card.html",
+      "applyURL": "https://www.discover.com/credit-cards/gas-and-restaurants/it-card.html",
+      "sourceURL": "https://www.discover.com/credit-cards/gas-and-restaurants/it-card.html",
       "lastVerified": "2026-11-10",
       "notes": "2% at gas stations and restaurants on up to $1,000 of combined spending a quarter, no activation. Discover matches all the cash back earned in the first year."
     }
