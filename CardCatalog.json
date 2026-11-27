@@ -1,12 +1,12 @@
 {
   "version": 7,
-  "updatedAt": "2026-11-26",
-  "note": "Re-verified 2026-11-26 against multiple concurring 2026 third-party sources and search snippets (issuer pages were not reachable); foreign transaction fees for Altitude Go and Freedom Unlimited (3%) rest on concurring 2026 third-party sources since the issuer pages omit them. Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant; where sources disagreed (Sapphire Preferred 75K or 100K, kept 75K; Bilt Obsidian $200 Bilt Cash vs a possibly unrelated $100 figure, kept $200; Sapphire Reserve 100K to 150K, some 2026 sources 125K, kept 100K, Strata Premier 60K to 75K, Wells Fargo Autograph 20K or 40K, Amex Gold spend $6,000 or $8,000, Capital One Savor $200 or $250, kept at $200; Altitude Go foreign transaction fee reported as 3% by some sources and none by others, 3% kept) the lower bonus and the higher spend are kept. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties. Rotating or capped dining: diningBonusWindows lists the dates a rotating dining rate applies (Discover it: Q4 2026), diningQuarterlyCap the dining spend per quarter at that rate (Discover it $1,500, Chrome $1,000, Altitude Go $2,000). Add each new Discover quarter when it is announced. Sapphire Preferred added 3X on gas and EV charging in the June 2026 refresh. Discover has not yet announced Q1 2027 categories.",
+  "updatedAt": "2026-11-27",
+  "note": "Re-verified 2026-11-27 (no term changes) against multiple concurring 2026 third-party sources and search snippets (issuer pages were not reachable); foreign transaction fees for Altitude Go and Freedom Unlimited (3%) rest on concurring 2026 third-party sources since the issuer pages omit them. Point values are set to 1 cent, the plain cash or travel redemption; transfers can be worth more. Welcome offers change often and vary by applicant; where sources disagreed (Sapphire Preferred 75K or 100K, kept 75K; Bilt Obsidian $200 Bilt Cash vs a possibly unrelated $100 figure, kept $200; Sapphire Reserve 100K to 150K, some 2026 sources 125K, kept 100K, Strata Premier 60K to 75K, Wells Fargo Autograph 20K or 40K, Amex Gold spend $6,000 or $8,000, Capital One Savor $200 or $250 (issuer snippet showed $250 limited-time), kept at $200; Chase Sapphire Preferred 75K vs a limited-time 100K, kept 75K; Altitude Go foreign transaction fee reported as 3% by some sources and none by others, 3% kept) the lower bonus and the higher spend are kept. transferablePoints marks programs whose points move to airline and hotel partners; the app uses it to break ties. Rotating or capped dining: diningBonusWindows lists the dates a rotating dining rate applies (Discover it: Q4 2026), diningQuarterlyCap the dining spend per quarter at that rate (Discover it $1,500, Chrome $1,000, Altitude Go $2,000). Add each new Discover quarter when it is announced. Sapphire Preferred added 3X on gas and EV charging in the June 2026 refresh. Discover has not yet announced Q1 2027 categories.",
   "cards": [
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "amex-gold",
       "name": "American Express Gold Card",
@@ -30,7 +30,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "chase-sapphire-preferred",
       "name": "Chase Sapphire Preferred",
@@ -56,7 +56,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "chase-sapphire-reserve",
       "name": "Chase Sapphire Reserve",
@@ -80,7 +80,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": true,
       "id": "capital-one-savor",
       "name": "Capital One Savor",
@@ -106,7 +106,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "citi-strata-premier",
       "name": "Citi Strata Premier",
@@ -131,7 +131,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": true,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "us-bank-altitude-go",
       "name": "U.S. Bank Altitude Go",
@@ -156,7 +156,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "wells-fargo-autograph",
       "name": "Wells Fargo Autograph",
@@ -181,7 +181,7 @@
     {
       "baseMultiplier": 1,
       "foreignTransactionFee": false,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": false,
       "id": "bilt-obsidian",
       "name": "Bilt Obsidian Card",
@@ -204,7 +204,7 @@
     {
       "baseMultiplier": 1.5,
       "foreignTransactionFee": true,
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "isCashBack": true,
       "id": "chase-freedom-unlimited",
       "name": "Chase Freedom Unlimited",
@@ -246,7 +246,7 @@
       "requiresActivation": true,
       "applyURL": "https://www.discover.com/credit-cards/cash-back/it-card.html",
       "sourceURL": "https://www.discover.com/credit-cards/cash-back/cashback-calendar.html",
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "notes": "Restaurants are a 5% category in Q4 2026, shared with entertainment and utilities under one $1,500 quarterly cap; activation is required each quarter. Discover matches all the cash back earned in the first year."
     },
     {
@@ -266,7 +266,7 @@
       "diningQuarterlyCap": 1000,
       "applyURL": "https://www.discover.com/credit-cards/gas-and-restaurants/it-card.html",
       "sourceURL": "https://www.discover.com/credit-cards/gas-and-restaurants/it-card.html",
-      "lastVerified": "2026-11-26",
+      "lastVerified": "2026-11-27",
       "notes": "2% at gas stations and restaurants on up to $1,000 of combined spending a quarter, no activation. Discover matches all the cash back earned in the first year."
     }
   ]
